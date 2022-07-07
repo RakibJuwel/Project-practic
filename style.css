@@ -1,0 +1,45 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.932);
+  }
+  img {
+    filter: blur(1px);
+    width: 100%;
+  }
+  .enter-button{
+    border-radius: 2px;
+    color: tomato;
+    background-color: rgb(46, 117, 129);
+    border: none;
+    font-weight: bold;
+  }
+  /* ---------donate part--------- */
+  .donate-part{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .box-size{
+    border-color: lightgray;
+    width: 50px;
+    border: 3px solid tomato;
+    display:flexbox;
+  }
+  .amount-edit{
+    height: 60px;
+    width: 80px;
+    color: grey;
+    font-weight:bold;
+    border: none;
+    margin-right: 10px;
+  }
+  .amount-sec{
+    text-align: center;
+    margin-top: 50px;
+}
