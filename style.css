@@ -20,6 +20,9 @@
     border: none;
     font-weight: bold;
   }
+  .enter-button:hover{
+    color: wheat;
+  }
   /* ---------donate part--------- */
   .donate-part{
     text-align: center;
@@ -39,7 +42,29 @@
     border: none;
     margin-right: 10px;
   }
+  .amount-edit-extra{
+    height: 60px;
+    width: 80px;
+    color: rgb(220, 102, 96);
+    font-weight:bold;
+    border-color: rgb(220, 102, 96);
+    margin-right: 10px;
+
+  }
   .amount-sec{
     text-align: center;
     margin-top: 50px;
 }
+.enter-button2{
+    text-align: center;
+}
+.button2-edit{
+    border-radius: 2px;
+    color: tomato;
+    background-color: rgb(46, 117, 129);
+    border: none;
+    font-weight: bold;
+}
+.button2-edit:hover{
+    color: wheat;
+  }
